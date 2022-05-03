@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@compositions/*": ["compositions/*"],
+      "@contracts/*": ["contracts/*"],
+      "@context/*": ["context/*"],
+      "@state": ["state/index.js"],
+      "@services/*": ["services/*"],
+      "@utils/*": ["utils/*"],
+      "@docs/*": ["docs/*"],
+      "@drops/*": ["@drops/*"],
+      "@drops": ["@drops/index.js"],
+      "@lib/*": ["lib/*"],
+      "@hooks/*": ["hooks/*"]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export { useContractMint } from './useContractMint'
