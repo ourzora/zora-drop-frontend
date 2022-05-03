@@ -1,13 +1,9 @@
 import { useEffect } from 'react'
 import { Box } from '@components/primitives'
 import { DropComponents, useDrops } from '@drops'
-import { useStore } from '@state'
 
 export function MintingUI({ css }) {
-  const setIsMinting = useStore((state) => state.setIsMinting)   
-
   const {
-    isSaleActive,
     contractMint: {
       isMinting,
       isSuccess,

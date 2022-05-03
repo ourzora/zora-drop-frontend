@@ -1,12 +1,9 @@
 import { useState } from "react"
 import { Box } from "@components/primitives"
 import { PoweredByZora } from "@components/zora/PoweredByZora"
-import { useStore } from "@state"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
 export function Footer() {
-  const sceneScrolled = useStore((state) => state.sceneScrolled)
-  
   const [hideOnScroll, setHideOnScroll] = useState(true)
   useScrollPosition(
     ({ prevPos, currPos }) => {
